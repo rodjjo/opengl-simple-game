@@ -1,0 +1,114 @@
+# depslib dependency file v1.0
+1433544010 source:c:\users\rodrigo\desktop\marcelao\simple_game\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	"accurate_timer.h"
+	"game_window.h"
+	"particle_engine.h"
+	"enemy_engine.h"
+	"fire_engine.h"
+	"player.h"
+	"colision_engine.h"
+
+1433427577 source:c:\users\rodrigo\desktop\marcelao\simple_game\accurate_timer.cpp
+	"accurate_timer.h"
+	<windows.h>
+	<Mmsystem.h>
+
+1433427560 c:\users\rodrigo\desktop\marcelao\simple_game\accurate_timer.h
+
+1433544322 source:c:\users\rodrigo\desktop\marcelao\simple_game\game_window.cpp
+	"game_window.h"
+	<exception>
+
+1433444299 c:\users\rodrigo\desktop\marcelao\simple_game\game_window.h
+	<Windows.h>
+	<gl/gl.h>
+	<list>
+	"event_linstener.h"
+
+1433449271 c:\users\rodrigo\desktop\marcelao\simple_game\event_linstener.h
+
+1433606571 source:c:\users\rodrigo\desktop\marcelao\simple_game\game_object.cpp
+	"game_object.h"
+	"utils.h"
+	"accurate_timer.h"
+	"particle_engine.h"
+	<gl/gl.h>
+
+1433606512 c:\users\rodrigo\desktop\marcelao\simple_game\game_object.h
+	<vector>
+
+1433535127 c:\users\rodrigo\desktop\marcelao\simple_game\utils.h
+
+1433606897 c:\users\rodrigo\desktop\marcelao\simple_game\player.h
+	"game_object.h"
+	"event_linstener.h"
+
+1433606954 source:c:\users\rodrigo\desktop\marcelao\simple_game\player.cpp
+	"player.h"
+	<windows.h>
+	"accurate_timer.h"
+	"fire_engine.h"
+	"particle_engine.h"
+
+1433530603 source:c:\users\rodrigo\desktop\marcelao\simple_game\utils.cpp
+	"utils.h"
+
+1433606487 source:c:\users\rodrigo\desktop\marcelao\simple_game\colision_engine.cpp
+	"colision_engine.h"
+	"enemy_engine.h"
+	"fire_engine.h"
+
+1433523195 c:\users\rodrigo\desktop\marcelao\simple_game\colision_engine.h
+	"game_object.h"
+	"event_linstener.h"
+
+1433604450 source:c:\users\rodrigo\desktop\marcelao\simple_game\enemy.cpp
+	"enemy.h"
+	<cstdlib>
+	"accurate_timer.h"
+	"particle_engine.h"
+	"fire_engine.h"
+
+1433535549 c:\users\rodrigo\desktop\marcelao\simple_game\enemy.h
+	"event_linstener.h"
+	"game_object.h"
+	<vector>
+
+1433543984 c:\users\rodrigo\desktop\marcelao\simple_game\particle_engine.h
+	"event_linstener.h"
+	<vector>
+
+1433604610 c:\users\rodrigo\desktop\marcelao\simple_game\fire_engine.h
+	<vector>
+	"game_object.h"
+	"event_linstener.h"
+
+1433535787 source:c:\users\rodrigo\desktop\marcelao\simple_game\enemy_engine.cpp
+	"enemy_engine.h"
+	<cstddef>
+	<cstdlib>
+	"particle_engine.h"
+	"fire_engine.h"
+	"accurate_timer.h"
+
+1433534099 c:\users\rodrigo\desktop\marcelao\simple_game\enemy_engine.h
+	"game_object.h"
+	"event_linstener.h"
+	"enemy.h"
+	<vector>
+
+1433606723 source:c:\users\rodrigo\desktop\marcelao\simple_game\fire_engine.cpp
+	"fire_engine.h"
+	<cmath>
+	<gl/gl.h>
+	<cstdlib>
+	"accurate_timer.h"
+	"particle_engine.h"
+
+1433607126 source:c:\users\rodrigo\desktop\marcelao\simple_game\particle_engine.cpp
+	"particle_engine.h"
+	"accurate_timer.h"
+	<gl/gl.h>
+	<cstdlib>
